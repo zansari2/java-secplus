@@ -1,4 +1,5 @@
 import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Path;
@@ -25,10 +26,16 @@ public class Database
     {
         try
         {
+            char [] a = new char[100];
             File f = new File(path.toString());
-            FileWriter write = new FileWriter(f);
-            write.write("Hello World!");
-            write.close();
+            FileReader reader = new FileReader(f);
+            reader.read(a);
+            for(char c : a)
+            {
+                System.out.println(c);
+            }
+            reader.close();
+            
         }
         catch(IOException e)
         {
