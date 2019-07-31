@@ -6,12 +6,16 @@ import java.io.*;
  */
 public class Database
 {
+    String[] terms;
+    String[] definitions;
     /**
      * Create a database using a file path
      * @param path the file path
      */
     public Database(Path path)
     {
+        terms = new String[100];
+        definitions = new String[100];
         parse(path);
     }
     /**
@@ -22,24 +26,28 @@ public class Database
     {
         try
         {
-            char [] a = new char[100];
-            File f = new File(path.toString());
-            FileReader reader = new FileReader(f);
-            reader.read(a);
-            for(char c : a)
-            {
-                if(c!='\n')
+            File file = new File(path.toString()); 
+            FileInputStream fileStream = new FileInputStream(file); 
+            InputStreamReader input = new InputStreamReader(fileStream); 
+            BufferedReader reader = new BufferedReader(input); 
+            String line = "";
+            boolean swich = false;
+            int i = 0;
+            while((line = reader.readLine()) != null) 
+            { 
+                if(swich==false)
                 {
-                    System.out.print(c);
+                    terms[i]=line;
+                    swich = true;
                 }
                 else
                 {
-                    System.out.println();
+                    definitions[i]=line;
+                    swich = false;
+                    i++;
                 }
             }
-            System.out.println();
             reader.close();
-            
         }
         catch(IOException e)
         {
@@ -108,10 +116,38 @@ public class Database
             e.printStackTrace();
         }
     } 
+    /**
+     * Print current values in database
+     * @param args
+     */
+    public void print()
+    {
+        for(int s = 0; s < terms.length; s++)
+        {
+            if(terms[s]!=null)
+            {
+                System.out.println(terms[s]);
+                System.out.println(definitions[s]);
+                System.out.println();
+            }
+        }
+    }
+    /**
+     * @return the definitions
+     */
+    public String[] getDefinitions() {
+        return definitions;
+    }
+    /**
+     * @return the terms
+     */
+    public String[] getTerms() {
+        return terms;
+    }
     public static void main(String[] args) 
     {
-        Path path = Path.of("C:/Users/zansari/Documents/GitHub/java-secplus/Hello.txt");
+        Path path = Path.of("C:/Users/zansari/Documents/GitHub/java-secplus/Data.txt");
         Database test = new Database(path);
-        test.diag(path);
+        test.print();
     }
 }

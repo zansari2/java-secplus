@@ -1,0 +1,6 @@
+active reconnaissance
+A penetration testing method used to collect information. It sends data to systems and analyzes responses to gain information on the target. 
+ad hoc
+A connection mode used by wireless devices without an AP. When wireless devices connect through an AP, they are using infrastructure mode.
+AES
+Advanced Encryption Standard. A strong symmetric block cipher that encrypts data in 128-bit blocks. AES can use key sizes of 128, 192, or 256 bits
