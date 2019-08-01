@@ -8,6 +8,7 @@ public class Database
 {
     String[] terms;
     String[] definitions;
+    int max;
     /**
      * Create a database using a file path
      * @param path the file path
@@ -16,6 +17,7 @@ public class Database
     {
         terms = new String[100];
         definitions = new String[100];
+        max = 0;
         parse(path);
     }
     /**
@@ -39,6 +41,7 @@ public class Database
                 {
                     terms[i]=line;
                     swich = true;
+                    max++;
                 }
                 else
                 {
@@ -131,6 +134,13 @@ public class Database
                 System.out.println();
             }
         }
+    }
+    /**
+     * @return the max
+     */
+    public int getMax() 
+    {
+        return max;
     }
     /**
      * @return the definitions
