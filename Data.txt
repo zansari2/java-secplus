@@ -1,6 +1,710 @@
+3DES
+Triple Digital Encryption Standard. A symmetric algorithm used to encrypt data and provide confidentiality. It is a block cipher that encrypts data in 64- bit blocks
+AAA
+Authentication, authorization, and accounting. A group of technologies used in remote access systems.
+Authentication
+verifies a user's identification
+Authorization
+determines if a user should have access
+Accounting
+tracks a user's access with logs
+AUP
+Acceptable Use Policy. A policy defining proper system usage and the rules of behavior for employees. If often describes the purpose of computer systems and networks, how users can access them, and the responsibilities of users when accessing the systems
+AP
+Access Point. A device that connects wireless clients to wireless networks
+ACLs
+Access Control Lists. Lists of rules used by routers and stateless firewalls. These devices use the ACL to control traffic based on networks, subnets, IP addresses, ports, and some protocols
 active reconnaissance
 A penetration testing method used to collect information. It sends data to systems and analyzes responses to gain information on the target. 
 ad hoc
 A connection mode used by wireless devices without an AP. When wireless devices connect through an AP, they are using infrastructure mode.
 AES
 Advanced Encryption Standard. A strong symmetric block cipher that encrypts data in 128-bit blocks. AES can use key sizes of 128, 192, or 256 bits
+affinity
+A scheduling method used with load balancers. It uses the client's IP address to ensure the client is redirected to the same server during a session
+aggregation switch
+a switch used to connect multiple switches together into a network. Switches connect to the aggregation switch and it connects to a router
+AH
+Authentication Header. An option within IPsec to provide authentication and integrity
+airgap
+A physical security control that provides physical isolation. Systems separated by airgap don't typically have any physical connections to other systems
+ALE
+Annual Loss Expectancy. Quantitative risk assessment calculated by SLE x ARO
+amplification attack
+an attack that increases the amount of bandwidth sent to a victim
+ANT
+A proprietary wireless protocol used by some mobile devices
+anti-spoofing
+a method used on some routers to protect against spoofing attacks. A common implementation is to implement specific rules to block certain traffic
+antivirus
+software that protects systems from malware including viruses, Trojans, worm, etc
+application cell (AKA application container)
+a virtualization technology that runs services or applications within isolated application cells. Each container shares the kernel of the host
+APT
+Advanced persistent threat. A group that has the capability and intent to launch sophisticated and targeted attacks
+arp
+A command-line tool used to show and manipulate the Address Resolution Protocol (ARP) cache
+ARP poisoning
+An attack that misleads systems about the actual MAC address of a system
+asymmetric encryption
+A type of encryption using two keys to encrypt and decrypt data. It uses a public key and a private key
+attestation
+A process that checks and validates system files during the boot process. TPMs sometimes use remote attestation, sending a report to a remote system for attestation
+availability
+ensures that systems and data are up and operational when needed. one of the 3 main goals of information security.
+backdoor
+an alternate method of accessing a system
+banner grabbing
+a method used to gain information about a remote system. It identifies the operating system and other details on the remote system
+bcrypt
+a key stretching algorithm. it is used to protect passwords. bcrypt salts passwords with additional bits before encrypting them with Blowfish. This thwarts rainbow table attacks
+BIOS
+Basic Input/Output systems. A computer's firmware used to manipulate different settings such as the date and time, boot drive, and access password. UEFI is the designated replacement for BIOS!
+birthday
+a password attack named after the birthday paradox in probability. in a random group of 23, 50% chance 2 have the same birthday
+block cipher
+An encryption method that encrypts data in fixed-sized blocks.
+blowfish
+a strong symmetric block cipher. it encrypts in 64-bit blocks and supports key sizes between 32 and 448 bits
+bluejacking
+sending unsolicited messages to nearby bluetooth devices
+bluesnarfing
+attackers gain unauthorized access to bluetooth devices and can access all the data on the device
+bollards
+short vertical posts to stop vehicles
+botnet
+is a group of computers that are joined together and then used to launch attacks
+BPA
+Business partners agreement.
+bridge
+A network device used to connect multiple networks together. can be used instead of a router in some situations
+buffer overflow
+An error that occurs when an application receives more input, or different input, than it expects. It exposes system memory that is normally inaccessible
+BIA
+Business impact analysis
+CA
+Certificate Authority. An organization that manages, issues, and signs certificates. A CA is a main element of a PKI
+captive portal
+a technical solution that forces wireless clients using web browsers to complete a process before accessing a network. It is often used to ensure users agree to an acceptable use policy or pay for access
+carrier unlocking
+the process of unlocking a mobile phone from specific cellular provider
+CBC
+Cipher Block Chaining. A mode of operation used for encryption that effectively converts a block cipher into a stream cipher. It uses an IV for the first block and each subsequent block is combined with the previous block
+CCMP
+Counter Mode with Cipher Block Chaining Message Authentication Code Protocol. An encryption protocol based on AES and used with WPA2 for wireless security. It is more secure than TKIP, which was used with the original release of WPA
+CER
+Canonical Encoding Rules. A base format for PKI certificates. They are binary encoded files
+chain of custody
+A process that provides assurances that evidence has been controlled and handled properly after collection
+change management
+the process used to prevent unauthorized changes
+CHAP
+Challenge Handshake Authentication Protocol. An authentication mechanism where a server challenges a client
+chroot
+A linux command used to change the root directory. Often used for sandboxing
+ciphertext
+the result of encrypting plaintext. not easily read until decrypted.
+clean desk policy
+a security policy requiring employees to keep their areas organized and free of papers. The goal is to reduce threats of security incidents by protecting sensitive data
+clickjacking
+An attack that tricks users into clicking something other than what they think they're clicking
+CASB
+cloud access security broker. A software tool or service that enforces cloud-based security requirements. It is placed between the organization's resources and the cloud, monitors all network traffic and can enforce security policies
+cloud deployment models
+cloud model types that identify who has access to cloud resources. Public, private, community, hybrid
+code signing
+the process of assigning a certificate to code. the certificate includes a digital signature and validates the code
+compiled code
+code that has been optimized by an application and converted into an executable file
+confidentiality
+ensures that unauthorized entities cannot access the data. One of the 3 main goals of information security
+configuration compliance scanner
+a type of vulnerability scanner that verifies systems are configured correctly
+confusion
+a cryptography concept that indicates ciphertext is significantly different than plaintext
+containerization
+A method used to isolate applications on mobile devices
+context-aware authentication
+an authentication method using multiple elements to authenticate a user and a mobile device
+continuity of operations planning
+the planning process that identifies an alternate location for operations after a critical outage
+control diversity
+the use of different security control types
+thin AP
+controller-based AP
+COPE
+Corporate-owned, Personally Enabled. the organization purchases and issues devices to employees
+CRL
+Certificate Revocation List. A list of certificates that a CA has revoked
+crossover error rate
+the point where the false acceptance rate (FAR) crosses over with the false rejection rate (FRR). A lower CER indicates a more accurate biometric system
+XSRF
+Cross-site request forgery. A web application attack. XSRF attacks trick users into performing actions on websites, such as making purchases, without their knowledge
+XSS
+cross-site scripting. A web application vulnerability. Attackers embed malicious HTML or JavaScript code into a web site's code, which executes when a user visits the site
+crypto-malware
+a type of ransomware that encrypts the user's data
+crypto module
+A set of hardware, software, and/or firmware that implements cryptographic functions
+crypto service provider
+A software library of cryptographic standards and algorithms. These libraries are typically distributed within crypto modules
+CSR
+Certificate signing request. A method of requesting a certificate from a CA. It starts by creating an RSA-based private/public key pair and then including the public key in CSR
+CTM
+Counter mode. A mode of operation used for encryption that combines an IV with a counter. The combined result is used to encrypt blocks
+custom firmware
+Mobile device firmware other than the firmware provided with the device. People sometimes use custom firmware to root Android devices
+cyber-incident response team
+A group of experts who respond to security incidents. Also know as CIRT
+CYOD
+choose your own device. employees can connect their personally owned device to the network as long as the device is on a preapproved list
+DAC
+Discretionary Access Control. An access control model where all objects have owners and owners can modify permissions for the objects. used by Microsoft NFTS
+DEP
+Data Execution Prevention. A security feature that prevents code from executing in memory regions marked as non-executable. it helps block malware
+data exfiltration
+the unauthorized transfer of data outside an organization
+DDoS
+Distributed Denial-of-Service. An attack on a system launched from multiple sources intended to make computer's resources or services unavailable to users. DDoS attacks typically include sustained, abnormally high network traffic
+degaussing
+removing data from magnetic media (destroying hard disks or credit cards)
+DER
+Distinguished Encoding Rules. A base format for PKI certificates. They are BASE64 ASCII encoded files
+DES
+Data Encryption Standard. A legacy symmetric encryption standard used to provide confidentiality. THIS HAS BEEN COMPROMISED. use AES or 3DES
+DH
+Diffie-Hellman. An asymmetric algorithm used to privately share symmetric keys.
+DHE
+DH Ephemeral. uses keys ephemeral keys, which are re-created for each session
+Elliptic Curve DHE
+ECDHE uses elliptic curve cryptography to generate encryption keys
+dig
+a command-line tool used to test DNS on linux systems
+DLL injection
+An attack that injects a dynamic link library into memory and runs it
+DLP
+Data Loss Prevention. A group of technologies used to prevent data loss
+DMZ
+Demilitarized Zone. A buffer zone between the internet and an internal network. Internet clients can access the services hosted in the DMZ, but the DMZ provides a layer of protection for the internal network
+DNS
+Domain Name System. A service used to resolve host names on IP addresses. DNS zones include records such as A records for IPv4 addresses and AAAA records for IPv6 addresses
+DNSSEC
+Domain Name System Security Extensions. A suite of extensions to DNS used to protect the integrity of DNS records and prevent some DNS attacks
+DNS poisoning
+An attack that modifies or corrupts DNS results. DNSSEC helps prevent DNS poisoning
+domain hijacking
+an attack that changes the registration of a domain name without permission from the owner
+DoS
+Denial-of-Service. An attack from a single source that attempts to disrupt the services provided by the attacked system
+downgrade attack
+a type of attack that forces a system to downgrade its security. the attacker then exploits the lesser security control.
+DSA
+Digital signature algorithm. An encrypted hash of a message used for authentication, non-repudiation, and integrity. the sender's private key encrypts the hash of the message
+EAP
+Extensible Authentication Protocol. An authentication framework that provides general guidance for authentication methods. Variations include PEAP, EAP-TLS, and EAP-FAST
+EAP-FAST
+EAP-Flexible Authentication via Secure Tunneling. A Cisco-designed replacement for Lightweight EAP (LEAP). supports certificates but is optional
+EAP-TLS
+EAP-Transport Layer Security. An extension of EAP sometimes with 802.1x. This is one of the MOST secure EAP standards and is widely implemented. It requires certificates on the 802.1x server and on the clients
+EAP-TTLS
+EAP- Tunneled Transport Layer Security. An extension of EAP sometimes used with 802.1x. It allows systems to use oler authentication methods such as PAP within a TLS tunnel.
+ECB
+Electronic Codebook. A legacy mode of operation used for encryption. It is weak and should not be used.
+embedded system
+any device that has a dedicated function and uses a computer system to perform that function. It includes a CPU, an operating system, and one or more applications.
+encryption
+a process that scrambles, or ciphers, data to make it unreadable.
+Enterprise
+A wireless mode that uses an 802.1x server for security. Forces users to authenticate with username and password
+ephemeral key
+a type of key used in cryptography. Have very short lifetimes and are re-created for each session
+ESP
+Encapsulating Security Payload. An option within IPsec to provide confidentiality, integrity, and authentication
+evil twin
+a type of rogue AP. Has the same SSID as a legitimate AP
+false negative
+a security incident that isnt detected or reported.
+false positive
+an alert on an event that isnt a security incident
+FAR
+False Acceptance Rate. a rate threat that identifies the percentage of times a biometric authentication system incorrectly indicates a match
+Faraday cage
+a room or enclosure that prevents signals from emanating beyond the room or enclosure
+Fat AP
+an AP that includes everything needed to connect wireless clients to a wireless network. Must be configured independently
+FDE
+Full Disk Encryption. A method to encrypt an entire disk
+federation
+two or more members of a federated identity management system. Used for SSO
+Firewall
+a software or network device used to filter traffic. Firewalls can be application-based (running on a host), or a network-based device.
+Stateful Firewalls
+filter traffic using rules within an ACL
+Stateless Firewalls
+filter traffic based on its state within the session
+firmware OTA updates
+Over-the-air updates for mobile devices firmware that keep them up to date. These are typically downloaded to the device from the internet and applied to update the device
+Flood guard
+a method of thwarting flood attacks. On switches, a flood guard thwarts MAC flood attacks. On routers, a flood guard prevents SYN flood attacks.
+FRR
+False Rejection Rate. A rate that identifies the percentage of times a biometric authentication system incorrectly rejects a valid match
+FTPS
+File Transfer Protocol Secure. An extension of FTP that uses TLS to encrypt FTP traffic. Some implementations of FTPS use TCP ports 989 and 990
+full tunnel
+all traffic from a user is in an encrypted connection using VPNs
+GCM
+Galois/Counter Mode. A mode of operation used for encryption that combines Counter (CTM) mode with hashing techniques for data authenticity and confidentiality
+GPO
+Group Policy Object. A technology used within Microsoft Windows to manage users and computers. It is implemented on a domain controller within a domain
+hardware root of trust
+A known secure starting point. TPMs have a private key burned into the hardware the provides a hardware root of trust
+hash
+A number created by executing a hashing algorithm against data, such as a file or a message. Hashing is used for integrity. Common hashing algorithms are MD5, SHA-1, and HMAC
+heuristic/behavioral
+A type of monitoring on IDS and IPS. It detects attacks by comparing traffic against a baseline. AKA anomaly detection
+HIDS/HIPS
+Host-Based Intrusion Detection System. Software installed on a system to detect attacks. It protects local resources on the host. Host-based Intrusion Prevention System. is an extension of HIDS. It is a software installed on a system to detect and block attacks
+HMAC
+Hash-Based Message Authentication Code. A hashing algorithm used to verify integrity and authenticity of a message with the use of a shared secret. Usually combined with another hashing algorithm (SHA)
+HOTP
+HMAC-based One Time Password. An open standard used for creating one-time passwords. It combines a secret key and a counter, and then uses HMAC to create a hash of the result
+HSM
+Hardware Security Module. a removable or external device that can generate, store, and manage RSA keys used in asymmetric encryption
+HTTPS
+Hypertext Transfer Protocol Secure. a protocol used to encrypt HTTP traffic. HTTPS encrypts traffic with TLS using TCP port 443
+IaaS
+Infrastructure as a Service. A cloud computing model that allows an organization to rent access to hardware in a self-managed platform
+ICS
+Industrial Control System. A system that controls large systems such as power plants or water treatment facilities. A SCADA system controls the ICS
+identification
+the process that occurs when a user claims an identity
+IEEE 802.1x
+An authentication protocol used in VPNs and wired and wireless networks . VPNs often implement it as a RADIUS server. Wired networks use it for port-based authentication. Wireless networks use it in Enterprise mode. It can be used with certificate-based authentication
+ifconfig
+A command-line tool used on a Linux systems to show and manipulate settings on a network interface card (NIC). Similar to ipconfig used on Windows systems
+IMAP4
+Internet Message Access Protocol v4. a protocol used to store and manage email on servers. IMAP4 uses TCP port 143. Secure IMAP4 uses TLS to encrypt IMAP4 traffic
+integrity
+provides assurance that data or system configurations have not been modified. One of the 3 main goals of information security
+ip
+A command-line tool used on Linux systems show and manipulate settingd on a network interface card (NIC)
+IPsec
+Internet Protocol Security. A suite of protocols used to encrypt data-in-transit that can operate in both Tunnel mode and Transport mode. It uses Tunnel mode for VPN traffic and Transport mode in private networks
+IP spoofing
+An attack that changes the source IP address
+ISA
+Interconnection Security Agreement. an agreement that specifies technical and security requirements for connections between two or more entities
+IV attack
+A wireless attack that attempts to discover the IV (initialization vector). Legacy wireless security protocols are susceptible to IV attacks
+KDC
+Key Distribution Center. Aka a TGT server. Part of the Kerberos protocol used for network authentication. The KDC issues timestamped tickets that expire
+Kerberos
+A network authentication mechanism used with Windows Active Directory domains and some Unix environments known as realms. It uses a KDC to issue tickets
+kernel
+the central part of the operating system
+key escrow
+the process of placing a copy of a private key in a safe environment
+key stretching
+a technique used to increase the strength of stored passwords. It salts the passwords and can help thwart brute force and rainbow table attacks 
+Known plaintext
+A cryptographic attack that decrypts encrypted data. In this attack, the attacker knows the plaintext used to create ciphertext.
+LDAP
+Lightweight Directory Access Protocol. A protocol used to communicate with directories such as Microsoft Active Directory. It identifies objects with query strings using codes such as CN=Users and DC=GetCertifiedGetAhead
+LDAPS
+LDAP Secure. A protocol used to encrypt LDAP traffic with TLS
+least functionality
+a core principle of secure systems design. systems should be deployed with the rights and permissions needed to perform assigned tasks or functions, but no more
+Logic Bomb
+A type of malware that executes in response to an event
+Loop prevention
+a method of preventing switching loop or bridge loop problems. Both STP and RSTP prevent switching loops
+MAC (Need-to-Know)
+Mandatory Access Control. An access control model that uses sensitivity label assigned to objects (files and folders) and subjects (users). MAC restricts access based on a need to know
+MAC (address)
+Media Access Control. A 48-bit address used to identify network interface network interface cards. It is also called a hardware address or a physical address
+MAC Filtering
+A form of network access control to allow a block access based on the MAC address. It is configured on switches for port security or on APs for wireless security
+MAC spoofing
+An attack that changes the source MAC address
+Mail Gateway
+A server that examines and processes all incoming and outgoing email. It typically a spam filter and DLP capabilities. Some gateways also provide encryption services
+man-in-the-browser
+An attack that infects vulnerable web browsers. It can allow the attacker to capture browser session data, including keystrokes.
+man-in-the-middle (MITM)
+An attack using active interception or eavesdropping. It uses a third computer to capture traffic sent between two other systems
+mantrap
+A physical mechanism designed to control access to a secure area.
+MD5
+Message Digest 5. A hashing function used to provide integrity. MD5 creates 128-bit hashes, which are also referred to as MD5 checksums. Experts consider MD5 cracked.
+MDM
+Mobile device management. A group of application and/or technologies used to manage mobile devices. MDM tools can monitor mobile devices and ensure they are in compliance with security policies
+MFDs
+Multi-function devices. Any device that performs multiple functions.
+MMS
+Multimedia Messaging Service. A method used to send text messages. It is an extension of SMS and supports sending multimedia content
+MOU/MOA
+Memorandum of understanding or memorandum of agreement. A type of agreement that defines responsibilities of each party
+MS-CHAPv2
+Microsoft Challenge Handshake Authentication Protocol v2. Provides mutual authentication
+MTBF
+Mean time between failures. A metric that provides a measure of a system's reliability and is usually represented in hours
+MTTR
+Mean Time To Recover. A metric that identifies the average time it takes to restore a failed system
+NAC
+Network Access Control. A system that inspects clients ensure they are healthy. Agents inspect clients and agents can be permanent or dissolvable (aka agentless)
+NAT
+Network Address Translation. A service that translates public IP addresses to private addresses and private IP addresses to public IP addresses
+NDA
+Non-Disclosure Agreement
+Netcat
+A command-line tool used to connect to remote systems
+netstat
+A command-line tool used to show network statistics on a system
+Network mapping
+A process used to discover devices on a network, including how they are connected
+network scanner
+A tool used to discover devices on a network, including their IP addresses, and their operating system, along with services and protocols running on the devices.
+NFC attack
+An attack against mobile devices that use near field communication (NFC. NFC is a group of standards that allow mobile devices to communicate with nearby mobile devices
+NIDS
+Network-based Intrusion Detection System. A device that detects attacks and raises alerts. A NIDS is installed on network devices, such as routers or firewalls, and monitors network traffic
+NIPS
+Network-based Intrusion Prevention System. A device that detects and stops attack sin progress. A NIPS is placed inline (aka in-band) with traffic so that it can actively monitor data streams
+NIST
+National Institute of Standard and Technology.
+Nmap
+A command-line tool used to scan networks. it is a type of network scanner
+nonce
+a number used once. Cryptography elements frequently use a nonce to add randomness
+non-persistence
+A method used in virtual desktops where changes made by a user are not saved. Most (or all) users have the same desktop. When users log off, the desktop reverts to its original state
+normalization
+the process of organizing tables and columns in a database. Normalization reduces redundant data and improves overall database performance
+nslookup
+A command-line tool used to test DNS on Microsoft systems.
+NTLM
+New Technology LAN Manager. A suite of protocols that provide confidentiality, integrity, and authentication within Windows systems.
+OAuth
+An open source standard used for authorization with Internet-based single-sign on solutions
+obfuscation
+An attempt to make something unclear or difficult to understand. Steganography methods use obfuscation to hide data within data
+OCSP
+Online Certificate Status Protocol. An alternative to CRL. It allows entities to query a CA with the serial number of a certificate. The CA answers with good, revoked, or unknown
+OpenID Connect
+An open source standard used for identification on the internet. It is typically used with OAuth and it allows clients to verify the identity of end users without managing their credentials
+open-source intelligence
+A method of gathering data using public sources, such as social media sites and news outlets
+order of volatility
+a term that refers to the order in which you should collect evidence
+P7B
+PKCS #7. A common format for PKI certificates. They are DER-based (ASCII) and commonly used to share public keys
+P12
+PKCS#12. A common format for PKI certificates. They are CER-Based (binary) and often hold certificates with the private key. They are commonly encrypted
+PaaS
+Platform as a Service. A cloud computing model that provides cloud customers with a preconfigured computing platform they can use as needed
+PAP
+Password Authentication Protocol. An older authentication protocol where passwords or PINs are sent across the network in cleartext
+passive reconaissance
+A penetration testing method used to collect information. It typically uses open-source intelligence
+pass the hash
+A password attack that captures and uses the hash of a password. It attempts to log on as a user with the hash and is commonly associated with the Microsoft NTLM protocol
+password cracker
+a tool used to discover passwords
+patch management
+the process used to keep up systems up to date with current patches. It typically includes evaluating and testing patches before deploying them
+PBKDF2
+Password-Based Key Derivation Function 2. A key stretching technique that adds additional bits to a password as a salt. It prevents brute force and rainbow table attacks
+PEAP
+Protected Extensible Authentication Protocol. An extension of EAP sometimes used with 802.1x. PEAP requires certification on the 802.1x server
+PEM
+Privacy Enhanced Mail. A common format for PKI certificates. It can use either CER (ASCII) or DER (binary) formats and can be used for almost any type of certificates
+penetration testing
+A method of testing targeted systems to determine if vulnerabilities can be exploited. Penetration tests are intrusive
+perfect forward secrecy
+A characteristic of encryption keys ensuring that keys are random. Perfect forward secrecy methods do not use deterministic algorithms
+permanent agent
+A NAC agent that is installed on a client. It checks the client for health
+permission auditing review
+An audit that analyzes user privileges. It identifies the privileges granted to the users, and compares them against what the users need
+PFX
+Personal Information Exchange. A common format for PKI certificates. It is the predecessor to P12 certificates
+phishing
+The practice of sending email to users with the purpose of tricking them into revealing personal information or clicking on a link
+ping
+a command-line tool used to test connectivity with remote systems
+pinning
+A security mechanism used by some web sites to prevent web site impersonation. Web sites provide clients with a list of public key hashes.
+Clients store the list and use it to validate the website
+PIV
+Personal Identity Verification card
+pivot
+One of the steps in penetration testing. After escalating privileges, the tester uses additional tools to gain additional information on the
+exploited computer or on the network
+pointer deference
+A programming practice that uses a pointer to reference a memory area. A failed deference operation can corrupt memory and sometimes
+even cause and application to crash
+POP3
+Post Office Protocol v3. A protocol used to transfer email from mail servers to clients
+port mirror
+A monitoring port on a switch. All traffic going through the switch is also sent to the port mirror
+privacy impact assessment
+An assessment used to identify and reduce risks related to potential loss of PII
+privacy threshold assessment
+an assessment used to help identify if a system is processing PII
+private key
+Part of a matched key pair used in asymmetric encryption. The private key always stays private
+privilege escalation
+the process of gaining elevated rights and permissions. Malware typically uses a variety of techniques to gain elevated privileges
+protocol analyzer
+A tool used to capture network traffic. Both professionals and attackers use protocol analyzers to examine packets. A protocol analyzer can
+be used to view sent data in clear text
+proxy
+A server used to forward requests for services such as HTTP(S).
+Forward Proxy
+forwards requests from internal clients to external clients
+Reverse Proxy
+accepts requests from the internet and forwards them to an internal web server
+Transparent Proxy
+does not modify requests, but nontransparent proxies include URL filters
+Application Proxy
+used for a specific application, but most proxy servers are used for multiple protocols
+PSK
+Pre-shared Key. A wireless mode that uses a pre-shared key (similar to a password or paraphrase) for security
+public key
+part of a matched key pair used in asymmetric encryption. The public key is publicly available
+PKI
+Public Key Infrastructure. A group of technologies used to request, create, manage, store, distribute, and revoke digital certificates
+pulping
+A process that is performed after shredding papers. It reduces the shredded paper to a mash or puree
+race condition
+A programming flaw that occurs when two sets of code attempt to access the same resource. The first one to access the resource wins,
+which can result in inconsistent results.
+RADIUS
+Remote Authentication Dial-In User Service. An authentication service that provides central authentication for remote access clients.
+Alternatives are TACACS+ and Diameter
+RAID
+Redundant Array of Inexpensive Disks. Multiple disks added together to increase performance or provide protection against faults. Common
+types include RAID-1, RAID-5, RAID-6, and RAID-10
+rainbow table
+A file containing precomputed hashes for character combinations. Rainbow tables are used to discover passwords. PBKDF2 and bcrypt
+thwart rainbow table attacks
+RAT
+Remote Access Trojan. Malware that allows an attacker to take control of a system from a remote location
+RC4
+A symmetric stream cipher that can use between 40 and 2048 bits. Experts consider it cracked and recommend using stronger alternatives
+refactoring
+A driver manipulation method. Developers rewrite the code without changing the driver's behavior
+replay attack
+An attack where the data is captured and replayed. attackers typically modify data before replaying it
+resource exhaustion
+the malicious result of many DoS and DDoS attacks. The attack overloads a computer's resources (such as the processor and memory),
+resulting in service interruption
+RFID attacks
+Attacks against radio-frequency Identification (RFID) systems. Common attacks: eavesdropping, replay, and DoS
+RIPEMD
+RACE integrity Primitives Evaluation Message Digest. A hash function used for integrity. It creates fixed-length hashes of 128, 160, 256, or
+320 bits
+rogue AP
+An unauthorized AP. It can be placed by and attacker or an employee who hasn't obtained permission to do so.
+role-BAC
+Role-based Access Control. An access control model that uses roles based on jobs and functions to define access. It is often implemented
+with groups
+root certificate
+A PKI certificate identifying a root CA
+rootkit
+a type of malware that has system-level access to a computer. Rootkits are often able to hide themselves from users and antivirus software
+ROT13
+A substitution cipher that uses a key of 13. To encrypt a message, you would rotate each letter 13 spaces
+round-robin
+A scheduling method used with load balancers. It redirects each client request to servers in a predetermined order
+RPO
+Recovery Point Objective.
+RSA
+Rivest, Shamir, and Adleman. An asymmetric algorithm used to encrypt data and digitally sign transmissions. It is named after its creators.
+RSTP
+Rapid Spanning Tree Protocol. An improvement of STP to prevent switching loop problems
+RTO
+Recovery Time Objective
+RTOS
+Real-Time Operating System. An operating system that reacts to input within a specific time. Many embedded systems include an RTOS
+rule-BAC
+Rule-based access control. An access control model that uses rules to define access. Rule-based access control is based on a set of
+approved instructions, such as an access control list, or rules that trigger in response to an event , such as modifying ACLs after detecting an
+attack.
+runtime code
+Code that is interpreted when it is executed
+SaaS
+Software as a Service. A cloud computing model that provides applications over the internet. Ex: Webmail
+salt
+A random set of data added to a password when creating the hash
+SAML
+Security Assertion Markup Language. An XML-based standard used to exchange authentication and authorization information between
+different parties. SAML provides SSO for web-based applications
+Sandboxing
+The use of an isolated area on a system, typically for testing. Virtual machines are often used to test patches in an isolated sandbox.
+Application developers sometimes use the chroot command to change the root directory creating a sandbox
+SATCOM
+Satellite communications
+SCADA
+Supervisory control and data acquisition. A system used to control an ICS such as a power plant or water treatment facility
+script kiddie.
+an attacker with little expertise
+SDN
+Software Defined Network. A method of using software and virtualization technologies to replace hardware routers. SDNs separate the data
+and control planes.
+secure boot
+A process that checks and validates system files during the boot protocol. A TPM typically uses a secure boot process
+Secure DevOps
+A software development process using an agile-aligned methodology. It considers security through the lifetime of the project
+SED
+Self-Employed Drive. A drive that includes the hardware and software necessary to encrypt a hard drive. Users typically enter credentials to
+decrypt and use the drive
+SFTP
+Secure File Transfer Protocol. An extension of Secure Shell (SSH) used to encrypt FTP traffic. SFTP transmits data using TCP port 22
+SHA
+Secure Hash Algorithm. A hashing function used to provide integrity. Versions SHA-1, SHA-2, and SHA-3
+Shibboleth
+An open source federation identity solution
+Shimming
+a driver manipulation method. It uses additional code to modify the behavior of a driver
+sideloading
+the process of copying an application package to a mobile device. It is useful for developer s when testing apps, but can be risky if users
+sideload unauthorized apps to their device
+SIEM
+Security Information and Event Management. A security system that attempts to look at security events throughout the organization
+SLA
+Service level agreement. An agreement between a company and a vendor that stipulates performance expectations, such as minimum
+uptime and maximum downtime levels
+S/MIME
+Secure/Multipurpose Internet Mail Extensions. a popular standard used to secure email. S/MIME provides confidentiality, integrity,
+authentication, and non-repudiation
+snapshot
+A copy of a virtual machine at a moment in time
+SNMPv3
+Simple Network Management Protocol v3. A protocol used to monitor and manage network devices such as routers and switches
+SoC
+System on a Chip. An integrated circuit that includes a computing system within the hardware. Many mobile devices include SoC
+SRTP
+Secure Real Time Transport Protocol. A protocol used to encrypt and provide authentication for Real-Time Transport Protocol (RTP) traffic.
+RTP is used for audio/video streaming.
+SSH
+Secure Shell. A protocol used to encrypt network traffic. SSH encrypts a wide variety of traffic such as SFTP. SHH uses TCP port 22
+SSID
+Service Set Identifier. The name of a wireless network. SSIDs can be set to broadcast so users can easily see it. Disabling SSID broadcast
+hides it from casual users
+SSL
+Secure Sockets Layer. The predecessor to TLS. SSL is used to encrypt data-in-transit with the use of certificates
+SSL decryptors
+Devices used to create separate SSL (or TLS) sessions. They allow other security devices to examine encrypted traffic sent to and from the
+Internet
+SSL/TLS accelerators
+Devices used to handle TLS traffic. Servers can off-load TLS traffic to improve performance
+Stapling
+The process of appending a digitally signed OCSP response to a certificate. It reduces the overall OCSP traffic sent to a CA
+STARTTLS
+A command (not an acronym) used to upgrade an unencrypted connection to an encrypted connection on the same port
+STP
+Spanning Tree Protocol. A protocol enabled on most switches that protects against switching loops. A switching loop can be caused if two
+ports of a switch are connected
+stream cipher
+An encryption method that encrypts data as a stream of bits or bytes
+substitution cipher
+An encryption method that replaces characters with other characters
+switch
+A network device used to connect devices. Layer 2 switches send traffic to ports based on their MAC addresses. Layer 3 switches send
+traffic to ports based on their IP addresses and support VLANs
+system sprawl
+A vulnerability that occurs when an organization has more systems than it needs, and systems it owns are underutilized.
+TACACS+
+Terminal Access Controller Access-Control System Plus. An authentication service that provides central authentication for remote access
+clients. It can be used as an alternative to RADIUS
+tcpdump
+A command-line protocol analyzer. Administrators use it to capture packets
+tethering
+the process of sharing an internet connection from one mobile device to another
+TKIP
+Temporal Key Integrity Protocol. A legacy wireless security protocol. CCMP is the recommended replacement
+TLS
+Transport Layer Security. The replacement for SSL. TLS is used to encrypt data-in-transit. Like SSL, it uses certificates issued by CAs
+token
+An authentication device or file. A hardware toke is a physical device used in the something you have factor authentication. A software token
+is a file used by authentication services indicating a user has logged on
+TOTP
+Time-based One-Time Password. An open source standard similar to HOTP. It uses a timestamp instead of a counter. One-time passwords
+created with TOTP expire after 30 seconds
+TPM
+Trusted Platform Module. A hardware chip on the motherboard included with many laptops and some mobile devices. It provides full disk
+encryption
+tracert
+A command-line tool used to trace and route between two systems
+Trojan
+Malware also known as a Trojan horse. It often looks useful but is malicious
+Twofish
+A symmetric key block cipher. It encrypts data in 128-bit blocks and supports 128-, 192-, or 256-bit keys
+Type I hypervisors
+A virtualization technology. Type I hypervisors (or bare-metal hypervisors) run directly on the system hardware. They don't need to run within
+an operating system
+Type II hypervisors
+A virtualization technology. Type II hypervisors run as software within a host operating system. The Microsoft Hyper-V hypervisor runs within
+a Microsoft operating system to host VMs
+typo squatting
+The purchase of a domain name that is close to a legitimate domain name. Attackers often try to trick users who go to the wrong site. aka
+URL hijacking
+UAVs
+Unmanned aerial vehicles
+UEFI
+Unified Extensible Firmware Interface. A method used to boot some systems and intended to replace Basic Input/Output System (BIOS)
+firmware
+USB OTG
+Universal Serial Bus On-the-go. A cable used to connect mobile devices to other devices. It is one of many methods that you can use to
+connect a mobile device to external media
+UTM
+Unified Threat Management. A group of security controls combined in a single solution
+VDI/VDE
+Virtual Desktop Infrastructure or Virtual Desktop Environment. Users access a server hosting virtual desktops and run the desktop operating
+system from the server
+virtualization
+A technology that allows you to host multiple virtual machines on a single physical system. Different types include Type I, Type II, and
+application cell/container virtualization
+VLAN
+Virtual Local Area Network. A method of segmenting traffic. A VLAN logically groups several different computers together without regard to
+their physical location
+VM Escape
+An attack that allows an attacker to access the host system from within a virtual machine. The primary protection is to keep hosts and guests
+up to date with current patches
+VM Sprawl
+A vulnerability that occurs when an organization has many VMs that aren't properly managed. Unmanaged VMs are not kept up to date with
+current patches
+VPN
+Virtual Private Network. A method that provides access to a private network over a public network such as the internet. VPN concentrators
+are dedicated devices used to provide VPN access to large groups of users
+watering hole attack
+An attack method that infects web sites that a group is likely to trust and visit
+WAF
+Web Application Firewall. A firewall specifically designed to protect a wen application, such as a web server. A WAF inspects the contents of
+traffic to a web server and can detect malicious content such as code used in a cross-scripting attack, and block it
+Wildcard certificate
+a certificate that can be used for multiple domains with the same root domain. It starts with an asterisk.
+wireless scanners
+a network scanner that scans wireless frequency bands. Scanners can help discover rogue APs and crack passwords used by wireless APs
+worm
+Self-replicating malware that travels through a network. Worms do not need user interaction to execute
+WPA
+Wi-Fi Protected Access. A legacy wireless security protocol. Superseded by WPA2
+WPA2
+Wi-Fi Protected Access II. A wireless security protocol. It supports CCMP for encryption, which is based on AES. It can use Open mode, a
+pre-shared key, or Enterprise mode.
+WPS
+Wi-Fi Protected Setup. A method that allows users to easily configure a wireless network, often by using only a PIN. WPS brute force attacks
+can discover the PIN
+WPS attack
+An attack against an AP. A WPS attack discovers the 8 digit WPS PIN and uses it to discover the AP passphrase
+XML
+Extensible Markup Language. A language used by many databases for inputting or exporting data. XML uses formatting rules to describe the
+data
+XOR
+A logical operation used in some encryption schemes. XOR operations compare two inputs. If the two inputs are the same, it outputs True. If
+two inputs are different, it outputs False
+zero-day vulnerability
+A vulnerability or bug that is unknown to trusted sources but can be exploited by attackers. Zero-day attacks take advantage of zero-day
+vulnerabilities
