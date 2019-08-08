@@ -433,18 +433,15 @@ The practice of sending email to users with the purpose of tricking them into re
 ping
 a command-line tool used to test connectivity with remote systems
 pinning
-A security mechanism used by some web sites to prevent web site impersonation. Web sites provide clients with a list of public key hashes.
-Clients store the list and use it to validate the website
+A security mechanism used by some web sites to prevent web site impersonation. Web sites provide clients with a list of public key hashes.Clients store the list and use it to validate the website
 PIV
 Personal Identity Verification card
 pivot
-One of the steps in penetration testing. After escalating privileges, the tester uses additional tools to gain additional information on the
-exploited computer or on the network
+One of the steps in penetration testing. After escalating privileges, the tester uses additional tools to gain additional information on the exploited computer or on the network
 pointer deference
-A programming practice that uses a pointer to reference a memory area. A failed deference operation can corrupt memory and sometimes
-even cause and application to crash
-POP3
-Post Office Protocol v3. A protocol used to transfer email from mail servers to clients
+A programming practice that uses a pointer to reference a memory area. A failed deference operation can corrupt memory and sometimes even cause and application to crash POP3
+Post Office Protocol v3. 
+A protocol used to transfer email from mail servers to clients
 port mirror
 A monitoring port on a switch. All traffic going through the switch is also sent to the port mirror
 privacy impact assessment
@@ -456,8 +453,7 @@ Part of a matched key pair used in asymmetric encryption. The private key always
 privilege escalation
 the process of gaining elevated rights and permissions. Malware typically uses a variety of techniques to gain elevated privileges
 protocol analyzer
-A tool used to capture network traffic. Both professionals and attackers use protocol analyzers to examine packets. A protocol analyzer can
-be used to view sent data in clear text
+A tool used to capture network traffic. Both professionals and attackers use protocol analyzers to examine packets. A protocol analyzer can be used to view sent data in clear text
 proxy
 A server used to forward requests for services such as HTTP(S).
 Forward Proxy
@@ -477,17 +473,13 @@ Public Key Infrastructure. A group of technologies used to request, create, mana
 pulping
 A process that is performed after shredding papers. It reduces the shredded paper to a mash or puree
 race condition
-A programming flaw that occurs when two sets of code attempt to access the same resource. The first one to access the resource wins,
-which can result in inconsistent results.
+A programming flaw that occurs when two sets of code attempt to access the same resource. The first one to access the resource wins, which can result in inconsistent results.
 RADIUS
-Remote Authentication Dial-In User Service. An authentication service that provides central authentication for remote access clients.
-Alternatives are TACACS+ and Diameter
+Remote Authentication Dial-In User Service. An authentication service that provides central authentication for remote access clients. Alternatives are TACACS+ and Diameter
 RAID
-Redundant Array of Inexpensive Disks. Multiple disks added together to increase performance or provide protection against faults. Common
-types include RAID-1, RAID-5, RAID-6, and RAID-10
+Redundant Array of Inexpensive Disks. Multiple disks added together to increase performance or provide protection against faults. Common types include RAID-1, RAID-5, RAID-6, and RAID-10
 rainbow table
-A file containing precomputed hashes for character combinations. Rainbow tables are used to discover passwords. PBKDF2 and bcrypt
-thwart rainbow table attacks
+A file containing precomputed hashes for character combinations. Rainbow tables are used to discover passwords. PBKDF2 and bcrypt thwart rainbow table attacks
 RAT
 Remote Access Trojan. Malware that allows an attacker to take control of a system from a remote location
 RC4
@@ -497,18 +489,15 @@ A driver manipulation method. Developers rewrite the code without changing the d
 replay attack
 An attack where the data is captured and replayed. attackers typically modify data before replaying it
 resource exhaustion
-the malicious result of many DoS and DDoS attacks. The attack overloads a computer's resources (such as the processor and memory),
-resulting in service interruption
+the malicious result of many DoS and DDoS attacks. The attack overloads a computer's resources (such as the processor and memory), resulting in service interruption
 RFID attacks
 Attacks against radio-frequency Identification (RFID) systems. Common attacks: eavesdropping, replay, and DoS
 RIPEMD
-RACE integrity Primitives Evaluation Message Digest. A hash function used for integrity. It creates fixed-length hashes of 128, 160, 256, or
-320 bits
+RACE integrity Primitives Evaluation Message Digest. A hash function used for integrity. It creates fixed-length hashes of 128, 160, 256, or 320 bits
 rogue AP
 An unauthorized AP. It can be placed by and attacker or an employee who hasn't obtained permission to do so.
 role-BAC
-Role-based Access Control. An access control model that uses roles based on jobs and functions to define access. It is often implemented
-with groups
+Role-based Access Control. An access control model that uses roles based on jobs and functions to define access. It is often implemented with groups
 root certificate
 A PKI certificate identifying a root CA
 rootkit
@@ -528,9 +517,7 @@ Recovery Time Objective
 RTOS
 Real-Time Operating System. An operating system that reacts to input within a specific time. Many embedded systems include an RTOS
 rule-BAC
-Rule-based access control. An access control model that uses rules to define access. Rule-based access control is based on a set of
-approved instructions, such as an access control list, or rules that trigger in response to an event , such as modifying ACLs after detecting an
-attack.
+Rule-based access control. An access control model that uses rules to define access. Rule-based access control is based on a set of approved instructions, such as an access control list, or rules that trigger in response to an event , such as modifying ACLs after detecting an attack.
 runtime code
 Code that is interpreted when it is executed
 SaaS
@@ -538,11 +525,9 @@ Software as a Service. A cloud computing model that provides applications over t
 salt
 A random set of data added to a password when creating the hash
 SAML
-Security Assertion Markup Language. An XML-based standard used to exchange authentication and authorization information between
-different parties. SAML provides SSO for web-based applications
+Security Assertion Markup Language. An XML-based standard used to exchange authentication and authorization information between different parties. SAML provides SSO for web-based applications
 Sandboxing
-The use of an isolated area on a system, typically for testing. Virtual machines are often used to test patches in an isolated sandbox.
-Application developers sometimes use the chroot command to change the root directory creating a sandbox
+The use of an isolated area on a system, typically for testing. Virtual machines are often used to test patches in an isolated sandbox. Application developers sometimes use the chroot command to change the root directory creating a sandbox
 SATCOM
 Satellite communications
 SCADA
@@ -550,15 +535,13 @@ Supervisory control and data acquisition. A system used to control an ICS such a
 script kiddie.
 an attacker with little expertise
 SDN
-Software Defined Network. A method of using software and virtualization technologies to replace hardware routers. SDNs separate the data
-and control planes.
+Software Defined Network. A method of using software and virtualization technologies to replace hardware routers. SDNs separate the data and control planes.
 secure boot
 A process that checks and validates system files during the boot protocol. A TPM typically uses a secure boot process
 Secure DevOps
 A software development process using an agile-aligned methodology. It considers security through the lifetime of the project
 SED
-Self-Employed Drive. A drive that includes the hardware and software necessary to encrypt a hard drive. Users typically enter credentials to
-decrypt and use the drive
+Self-Employed Drive. A drive that includes the hardware and software necessary to encrypt a hard drive. Users typically enter credentials to decrypt and use the drive
 SFTP
 Secure File Transfer Protocol. An extension of Secure Shell (SSH) used to encrypt FTP traffic. SFTP transmits data using TCP port 22
 SHA
@@ -568,16 +551,13 @@ An open source federation identity solution
 Shimming
 a driver manipulation method. It uses additional code to modify the behavior of a driver
 sideloading
-the process of copying an application package to a mobile device. It is useful for developer s when testing apps, but can be risky if users
-sideload unauthorized apps to their device
+the process of copying an application package to a mobile device. It is useful for developer s when testing apps, but can be risky if users sideload unauthorized apps to their device
 SIEM
 Security Information and Event Management. A security system that attempts to look at security events throughout the organization
 SLA
-Service level agreement. An agreement between a company and a vendor that stipulates performance expectations, such as minimum
-uptime and maximum downtime levels
+Service level agreement. An agreement between a company and a vendor that stipulates performance expectations, such as minimum uptime and maximum downtime levels
 S/MIME
-Secure/Multipurpose Internet Mail Extensions. a popular standard used to secure email. S/MIME provides confidentiality, integrity,
-authentication, and non-repudiation
+Secure/Multipurpose Internet Mail Extensions. a popular standard used to secure email. S/MIME provides confidentiality, integrity, authentication, and non-repudiation
 snapshot
 A copy of a virtual machine at a moment in time
 SNMPv3
@@ -585,18 +565,15 @@ Simple Network Management Protocol v3. A protocol used to monitor and manage net
 SoC
 System on a Chip. An integrated circuit that includes a computing system within the hardware. Many mobile devices include SoC
 SRTP
-Secure Real Time Transport Protocol. A protocol used to encrypt and provide authentication for Real-Time Transport Protocol (RTP) traffic.
-RTP is used for audio/video streaming.
+Secure Real Time Transport Protocol. A protocol used to encrypt and provide authentication for Real-Time Transport Protocol (RTP) traffic. RTP is used for audio/video streaming.
 SSH
 Secure Shell. A protocol used to encrypt network traffic. SSH encrypts a wide variety of traffic such as SFTP. SHH uses TCP port 22
 SSID
-Service Set Identifier. The name of a wireless network. SSIDs can be set to broadcast so users can easily see it. Disabling SSID broadcast
-hides it from casual users
+Service Set Identifier. The name of a wireless network. SSIDs can be set to broadcast so users can easily see it. Disabling SSID broadcast hides it from casual users
 SSL
 Secure Sockets Layer. The predecessor to TLS. SSL is used to encrypt data-in-transit with the use of certificates
 SSL decryptors
-Devices used to create separate SSL (or TLS) sessions. They allow other security devices to examine encrypted traffic sent to and from the
-Internet
+Devices used to create separate SSL (or TLS) sessions. They allow other security devices to examine encrypted traffic sent to and from the Internet
 SSL/TLS accelerators
 Devices used to handle TLS traffic. Servers can off-load TLS traffic to improve performance
 Stapling
@@ -604,20 +581,17 @@ The process of appending a digitally signed OCSP response to a certificate. It r
 STARTTLS
 A command (not an acronym) used to upgrade an unencrypted connection to an encrypted connection on the same port
 STP
-Spanning Tree Protocol. A protocol enabled on most switches that protects against switching loops. A switching loop can be caused if two
-ports of a switch are connected
+Spanning Tree Protocol. A protocol enabled on most switches that protects against switching loops. A switching loop can be caused if two ports of a switch are connected
 stream cipher
 An encryption method that encrypts data as a stream of bits or bytes
 substitution cipher
 An encryption method that replaces characters with other characters
 switch
-A network device used to connect devices. Layer 2 switches send traffic to ports based on their MAC addresses. Layer 3 switches send
-traffic to ports based on their IP addresses and support VLANs
+A network device used to connect devices. Layer 2 switches send traffic to ports based on their MAC addresses. Layer 3 switches send traffic to ports based on their IP addresses and support VLANs
 system sprawl
 A vulnerability that occurs when an organization has more systems than it needs, and systems it owns are underutilized.
 TACACS+
-Terminal Access Controller Access-Control System Plus. An authentication service that provides central authentication for remote access
-clients. It can be used as an alternative to RADIUS
+Terminal Access Controller Access-Control System Plus. An authentication service that provides central authentication for remote access clients. It can be used as an alternative to RADIUS
 tcpdump
 A command-line protocol analyzer. Administrators use it to capture packets
 tethering
@@ -627,14 +601,11 @@ Temporal Key Integrity Protocol. A legacy wireless security protocol. CCMP is th
 TLS
 Transport Layer Security. The replacement for SSL. TLS is used to encrypt data-in-transit. Like SSL, it uses certificates issued by CAs
 token
-An authentication device or file. A hardware toke is a physical device used in the something you have factor authentication. A software token
-is a file used by authentication services indicating a user has logged on
+An authentication device or file. A hardware toke is a physical device used in the something you have factor authentication. A software token is a file used by authentication services indicating a user has logged on
 TOTP
-Time-based One-Time Password. An open source standard similar to HOTP. It uses a timestamp instead of a counter. One-time passwords
-created with TOTP expire after 30 seconds
+Time-based One-Time Password. An open source standard similar to HOTP. It uses a timestamp instead of a counter. One-time passwords created with TOTP expire after 30 seconds
 TPM
-Trusted Platform Module. A hardware chip on the motherboard included with many laptops and some mobile devices. It provides full disk
-encryption
+Trusted Platform Module. A hardware chip on the motherboard included with many laptops and some mobile devices. It provides full disk encryption
 tracert
 A command-line tool used to trace and route between two systems
 Trojan
@@ -642,47 +613,35 @@ Malware also known as a Trojan horse. It often looks useful but is malicious
 Twofish
 A symmetric key block cipher. It encrypts data in 128-bit blocks and supports 128-, 192-, or 256-bit keys
 Type I hypervisors
-A virtualization technology. Type I hypervisors (or bare-metal hypervisors) run directly on the system hardware. They don't need to run within
-an operating system
+A virtualization technology. Type I hypervisors (or bare-metal hypervisors) run directly on the system hardware. They don't need to run within an operating system
 Type II hypervisors
-A virtualization technology. Type II hypervisors run as software within a host operating system. The Microsoft Hyper-V hypervisor runs within
-a Microsoft operating system to host VMs
+A virtualization technology. Type II hypervisors run as software within a host operating system. The Microsoft Hyper-V hypervisor runs within a Microsoft operating system to host VMs
 typo squatting
-The purchase of a domain name that is close to a legitimate domain name. Attackers often try to trick users who go to the wrong site. aka
-URL hijacking
+The purchase of a domain name that is close to a legitimate domain name. Attackers often try to trick users who go to the wrong site. aka URL hijacking
 UAVs
 Unmanned aerial vehicles
 UEFI
-Unified Extensible Firmware Interface. A method used to boot some systems and intended to replace Basic Input/Output System (BIOS)
-firmware
+Unified Extensible Firmware Interface. A method used to boot some systems and intended to replace Basic Input/Output System (BIOS) firmware
 USB OTG
-Universal Serial Bus On-the-go. A cable used to connect mobile devices to other devices. It is one of many methods that you can use to
-connect a mobile device to external media
+Universal Serial Bus On-the-go. A cable used to connect mobile devices to other devices. It is one of many methods that you can use to connect a mobile device to external media
 UTM
 Unified Threat Management. A group of security controls combined in a single solution
 VDI/VDE
-Virtual Desktop Infrastructure or Virtual Desktop Environment. Users access a server hosting virtual desktops and run the desktop operating
-system from the server
+Virtual Desktop Infrastructure or Virtual Desktop Environment. Users access a server hosting virtual desktops and run the desktop operating system from the server
 virtualization
-A technology that allows you to host multiple virtual machines on a single physical system. Different types include Type I, Type II, and
-application cell/container virtualization
+A technology that allows you to host multiple virtual machines on a single physical system. Different types include Type I, Type II, and application cell/container virtualization
 VLAN
-Virtual Local Area Network. A method of segmenting traffic. A VLAN logically groups several different computers together without regard to
-their physical location
+Virtual Local Area Network. A method of segmenting traffic. A VLAN logically groups several different computers together without regard to their physical location
 VM Escape
-An attack that allows an attacker to access the host system from within a virtual machine. The primary protection is to keep hosts and guests
-up to date with current patches
+An attack that allows an attacker to access the host system from within a virtual machine. The primary protection is to keep hosts and guests up to date with current patches
 VM Sprawl
-A vulnerability that occurs when an organization has many VMs that aren't properly managed. Unmanaged VMs are not kept up to date with
-current patches
+A vulnerability that occurs when an organization has many VMs that aren't properly managed. Unmanaged VMs are not kept up to date with current patches
 VPN
-Virtual Private Network. A method that provides access to a private network over a public network such as the internet. VPN concentrators
-are dedicated devices used to provide VPN access to large groups of users
+Virtual Private Network. A method that provides access to a private network over a public network such as the internet. VPN concentrators are dedicated devices used to provide VPN access to large groups of users
 watering hole attack
 An attack method that infects web sites that a group is likely to trust and visit
 WAF
-Web Application Firewall. A firewall specifically designed to protect a wen application, such as a web server. A WAF inspects the contents of
-traffic to a web server and can detect malicious content such as code used in a cross-scripting attack, and block it
+Web Application Firewall. A firewall specifically designed to protect a wen application, such as a web server. A WAF inspects the contents of traffic to a web server and can detect malicious content such as code used in a cross-scripting attack, and block it
 Wildcard certificate
 a certificate that can be used for multiple domains with the same root domain. It starts with an asterisk.
 wireless scanners
@@ -692,19 +651,14 @@ Self-replicating malware that travels through a network. Worms do not need user 
 WPA
 Wi-Fi Protected Access. A legacy wireless security protocol. Superseded by WPA2
 WPA2
-Wi-Fi Protected Access II. A wireless security protocol. It supports CCMP for encryption, which is based on AES. It can use Open mode, a
-pre-shared key, or Enterprise mode.
+Wi-Fi Protected Access II. A wireless security protocol. It supports CCMP for encryption, which is based on AES. It can use Open mode, a pre-shared key, or Enterprise mode.
 WPS
-Wi-Fi Protected Setup. A method that allows users to easily configure a wireless network, often by using only a PIN. WPS brute force attacks
-can discover the PIN
+Wi-Fi Protected Setup. A method that allows users to easily configure a wireless network, often by using only a PIN. WPS brute force attacks can discover the PIN
 WPS attack
 An attack against an AP. A WPS attack discovers the 8 digit WPS PIN and uses it to discover the AP passphrase
 XML
-Extensible Markup Language. A language used by many databases for inputting or exporting data. XML uses formatting rules to describe the
-data
+Extensible Markup Language. A language used by many databases for inputting or exporting data. XML uses formatting rules to describe the data
 XOR
-A logical operation used in some encryption schemes. XOR operations compare two inputs. If the two inputs are the same, it outputs True. If
-two inputs are different, it outputs False
+A logical operation used in some encryption schemes. XOR operations compare two inputs. If the two inputs are the same, it outputs True. If two inputs are different, it outputs False
 zero-day vulnerability
-A vulnerability or bug that is unknown to trusted sources but can be exploited by attackers. Zero-day attacks take advantage of zero-day
-vulnerabilities
+A vulnerability or bug that is unknown to trusted sources but can be exploited by attackers. Zero-day attacks take advantage of zero-day vulnerabilities
