@@ -15,8 +15,8 @@ public class Database
      */
     public Database(Path path)
     {
-        terms = new String[100];
-        definitions = new String[100];
+        terms = new String[322];
+        definitions = new String[322];
         max = 0;
         parse(path);
     }
