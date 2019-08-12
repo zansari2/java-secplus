@@ -44,6 +44,12 @@ public class Question
     {
         int i = getRand(data.getMax());
         System.out.println("####\n#\t"+prompt[i]+"\n#");
+        System.out.println("#\t"+answer[i]+"\n#");
+        i = getRand(data.getMax());
+        System.out.println("#\t"+answer[i]+"\n#");
+        i = getRand(data.getMax());
+        System.out.println("#\t"+answer[i]+"\n#");
+        i = getRand(data.getMax());
         System.out.println("#\t"+answer[i]+"\n####");
     }
     /**
