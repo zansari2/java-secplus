@@ -61,10 +61,24 @@ public class Question
             choices[j] = answer[l];
         }
         // Print them
-        System.out.println("#\t"+choices[0]+"\n#");
-        System.out.println("#\t"+choices[1]+"\n#");
-        System.out.println("#\t"+choices[2]+"\n#");
-        System.out.println("#\t"+choices[3]+"\n####");
+        int r = getRand(choices.length);
+        System.out.println("#\t"+choices[r]+"\n#");
+        r--;
+        if(r < 0)
+        {
+            r = choices.length-1;
+        }
+        System.out.println("#\t"+choices[r--]+"\n#");
+        if(r < 0)
+        {
+            r = choices.length-1;
+        }
+        System.out.println("#\t"+choices[r--]+"\n#");
+        if(r < 0)
+        {
+            r = choices.length-1;
+        }
+        System.out.println("#\t"+choices[r--]+"\n####");
     }
     /**
      * Testing purposes
