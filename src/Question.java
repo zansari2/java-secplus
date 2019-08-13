@@ -42,15 +42,29 @@ public class Question
      */
     private void print()
     {
+        // Store a set of possible choices
+        String choices[] = new String[4];
+        // Find a random question
         int i = getRand(data.getMax());
+        // Print the question
         System.out.println("####\n#\t"+prompt[i]+"\n#");
-        System.out.println("#\t"+answer[i]+"\n#");
-        i = getRand(data.getMax());
-        System.out.println("#\t"+answer[i]+"\n#");
-        i = getRand(data.getMax());
-        System.out.println("#\t"+answer[i]+"\n#");
-        i = getRand(data.getMax());
-        System.out.println("#\t"+answer[i]+"\n####");
+        // Store the answer
+        choices[0] = answer[i];
+        // Find random possible answers
+        for(int j = 1 ; j < choices.length ; j++)
+        {
+            int l = getRand(data.getMax());
+            while(l == i)
+            {
+                l = getRand(data.getMax());
+            }
+            choices[j] = answer[l];
+        }
+        // Print them
+        System.out.println("#\t"+choices[0]+"\n#");
+        System.out.println("#\t"+choices[1]+"\n#");
+        System.out.println("#\t"+choices[2]+"\n#");
+        System.out.println("#\t"+choices[3]+"\n####");
     }
     /**
      * Testing purposes
