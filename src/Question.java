@@ -1,5 +1,6 @@
 import java.nio.file.Path;
 import java.util.Random;
+import java.util.Scanner;
 /**
  * A question
  */
@@ -87,6 +88,21 @@ public class Question
     public static void main(String[] args) 
     {
         Question q = new Question();
-        q.print();
+        boolean h = false;
+        Scanner s = new Scanner(System.in);
+
+        while(h==false)
+        {
+            System.out.println("Would you like to view a question? (Y/N)");
+            if(s.nextLine().equalsIgnoreCase("N"))
+            {
+                System.out.println("Exiting...");
+                h=true;
+            }
+            else
+            {
+                q.print();
+            }
+        }
     }
 }
