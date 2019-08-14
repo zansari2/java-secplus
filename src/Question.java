@@ -93,7 +93,7 @@ public class Question
 
         while(h==false)
         {
-            System.out.println("Would you like to view a question? (Y/N)");
+            System.out.print("Would you like to view a question? (Y/N)");
             if(s.nextLine().equalsIgnoreCase("N"))
             {
                 System.out.println("Exiting...");
@@ -104,5 +104,7 @@ public class Question
                 q.print();
             }
         }
+
+        s.close();
     }
 }
