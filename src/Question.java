@@ -41,7 +41,7 @@ public class Question
     /**
      * Writes a question to the console
      */
-    private void print()
+    private String print()
     {
         // Store a set of possible choices
         String choices[] = new String[4];
@@ -80,6 +80,7 @@ public class Question
             r = choices.length-1;
         }
         System.out.println("#\t"+choices[r--]+"\n####");
+        return choices[0];
     }
     /**
      * Testing purposes
@@ -90,18 +91,25 @@ public class Question
         Question q = new Question();
         boolean h = false;
         Scanner s = new Scanner(System.in);
+        String currAnsw = "";
+        String currLine = "";
 
         while(h==false)
         {
-            System.out.print("Would you like to view a question? (Y/N)");
-            if(s.nextLine().equalsIgnoreCase("N"))
+            System.out.print("Would you like to view a question? (Y/N) or (?) : ");
+            currLine = s.nextLine();
+            if(currLine.equalsIgnoreCase("N"))
             {
                 System.out.println("Exiting...");
                 h=true;
             }
+            else if(currLine.equalsIgnoreCase("?")&&!currAnsw.equals(""))
+            {
+                System.out.println(currAnsw);
+            }
             else
             {
-                q.print();
+                currAnsw = q.print();
             }
         }
 
